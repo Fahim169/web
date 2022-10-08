@@ -1,0 +1,156 @@
+
+#title {
+  background: #ff4c68;
+  color: azure;
+  text-align: left;
+  
+
+}
+
+h1 {
+  font-family: "Montserrat-Black900";
+  font-size: 3rem;
+  line-height: 1.5;
+  
+}
+
+.container-fluid {
+  padding: 3% 15% 0% 15%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 5%;
+}
+
+.nav-item {
+  padding: 0 3%;
+}
+
+.download_button {
+  margin: 5% 3% 5% 3%;
+}
+
+
+.phone_img{
+  position: relative;
+  transform: rotate(23deg); 
+  width: 50%;
+  left: 30%;
+  bottom: 12%;
+    
+}
+/* 991px */
+@media screen and (max-width: 992px) {
+
+  #title {
+    background: #ff4c68;
+    color: azure;
+    text-align: center;
+    
+  
+  }
+ 
+  .phone_img{
+    position: static;
+    
+    transform: rotate(0deg);
+    padding-top: 5%;
+    padding-bottom: 3%;
+    
+  }
+ 
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  flood-color: #8f8f8f;
+}
+
+.icon_color {
+  color: #ef8172;
+}
+
+#features {
+  text-align: center;
+  padding: 10% 15%;
+  background: rgb(255, 255, 255);
+  position: relative;
+  z-index: 1;
+}
+
+i{
+  padding-bottom: 5%;
+}
+
+.icon_color:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background: #ef8172;
+  color: azure;
+}
+
+.testimonialsimg {
+  width: 15%;
+  border-radius: 50%;
+  margin: 3%;
+}
+
+#press {
+  text-align: center;
+  background: #ef8172;
+  color: azure;
+}
+
+.press_logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-colom{
+  padding: 3% 2%;
+}
+
+
+#cta{
+  background: #ff4c68;
+  color: azure;
+  text-align: center;
+  padding: 10%;
+  font-family: "Montserrat-Black900";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 5%;
+  text-align: center;
+}
+.footer-icon{
+  padding: 20px;
+}
